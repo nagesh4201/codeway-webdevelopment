@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     ul li{
+      list-style-type:none;
+     }
+  </style>
+  <style>
+    body{
+      background-image: url(pic.jpg);
+      background-repeat:no-repeat ;
+      background-size: cover;
+      position: relative;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding:0;
+      margin-bottom: 15%;
+      }
+    @font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: white;
+}
+.paragraph2{
+    text-align:center;
+    font-size: 100px;
+    font-family: nos;
+    color: white;
+}
+.menu-bar
+{
+text-align:center;
+background-color: #000000;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:floralwhite
+}
+.menu-bar ul li
+{
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+.paragraph5{
+    font-size: 20px;
+    font-family:Courier;
+    margin: 30px;
+    color: white;
+}
+
+
+
+.lets-go-btn{
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+}
+.lets-go-btn:hover{
+    background: rgb(54, 1, 1);
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.icons a { margin-right:75px; }
+
+.icons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:black;
+    margin-top:28%;
+}
+.p1{
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+    
+}
+  </style>
+  <style>
+    h2{line-height: 0px;}
+  </style>
+<script src="https://kit.fontawesome.com/f9c49325e6.js" crossorigin="anonymous"></script>
+<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu-bar">     
+<ul>
+<li>Music</li>
+<li>Band</li>
+<li>Tour</li>
+<li>Journal</li>
+<li>Shop</li>
+<li>Newsletter</li> 
+</ul>
+</div>
+  <div>
+  <ul>
+    <h1 class = "paragraph">THIRTEEN YEARS OF</h1>
+    <h2 class = "paragraph2">ONE DIRECTION</h2>
+  </div>
+</ul>
+<div>
+  <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Fcool-green-background-dwmwe0eocvw9ibvr.jpg&tbnid=aj-F8TSJZAW-QM&vet=10CE0QMyjVAmoXChMI4OH_sae0hAMVAAAAAB0AAAAAEAU..i&imgrefurl=https%3A%2F%2Fwallpapers.com%2Fcool-green-background&docid=skPOHlM1guKsiM&w=1920&h=1080&q=green%20background&ved=0CE0QMyjVAmoXChMI4OH_sae0hAMVAAAAAB0AAAAAEAU" height="500" width="500"
+  <p class = "paragraph5">Welcome to the official Thirteen Years Of One Direction website. Visit for the archived<br>
+  journal posts, past events, band photos, as well as all their music, singles and albums.<br>
+  Celebrate thirteen years of One Direction by rediscovering their journey,<br>
+  right from the very beginning.Keep an eye out for hidden surprises!<br>
+  Relive your favourite 1D memories here and get your own personalised,<br>
+  extra-special anniversary mixtape by connecting to your Spotify,Apple Music,<br>
+  SoundCloud and Deezer!</p>
+</div>
+<ul>
+<div>
+<a href= "#" class = "lets-go-bt">LET'S GO</a>
+</div>
+</ul>
+<footer class = "footer">
+  <div class="icons">
+  <ul>
+    <a style="color: #0ac623;"href="#"><i class="fa-brands fa-spotify"></i></a> 
+    <a style="color: #595b60b5;"href="#"><i class="fa-brands fa-apple"></i></a>
+    <a style="color: #ef4f0bf3;"href="#"><i class="fa-brands fa-soundcloud"></i></a>
+    <a style="color: floralwhite;"href="#"><i class="fa-brands fa-deezer"></i></a>
+  </ul>
+  </div> 
+  <div class="p1">
+  <pre> SYCO MUSIC                                                         &copy;2022 SONY MUSIC ENTERTAINMENT UK LTD                                              PRIVACY AND COOKIE POLICY</pre>
+  </div>
+</footer>
+</body>
+</html>
